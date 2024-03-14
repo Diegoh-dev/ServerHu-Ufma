@@ -32,7 +32,7 @@ app.post('/users/auth',(req:Request,res:Response) => {
     console.log({prontuario})
     console.log({sus})
 
-   return res.send("ok");
+  //  return res.send("ok");
 })
 
 //http://localhost:8081/users/auth
