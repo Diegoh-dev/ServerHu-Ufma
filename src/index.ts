@@ -35,6 +35,7 @@ app.post('/users/auth',(req:Request,res:Response) => {
    return res.send("ok");
 })
 
+//http://localhost:8081/users/auth
 
 app.listen(port, () => {
   console.log(`Servidor rodando na porta: ${port} 🚀`);
