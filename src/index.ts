@@ -11,7 +11,7 @@ const secretKey = "hausdwbajdw54523gyean";
 
 const listaUsuarios = [];
 
-app.post("/users", (req: Request, res: Response) => {
+app.post("/users/create", (req: Request, res: Response) => {
   const { prontuario, sus } = req.body;
 
   if (prontuario === "") {
